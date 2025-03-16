@@ -1,0 +1,99 @@
+defaultTasks 'clean', 'test', 'aggregate'
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:3.2.5")
+        classpath("net.serenity-bdd:serenity-single-page-report:3.3.2")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'net.serenity-bdd.aggregator'
+apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+serenity {
+    reports = ["single-page-html"]
+}
+
+group 'org.example'
+version '1.0'
+
+ext {
+    serenityVersion = '3.4.1'
+    schema = '5.3.0'
+    junit = '3.4.1'
+    cucumber = '3.4.1'
+    slf4j = '2.0.4'
+    jsonpath = '2.7.0'
+    testlink= '1.9.6-1'
+    testlinkjava = '2.0'
+}
+
+
+dependencies {
+
+    implementation  "net.serenity-bdd:serenity-cucumber:${cucumber}",
+                    "net.serenity-bdd:serenity-screenplay-rest:${serenityVersion}",
+                    "net.serenity-bdd:serenity-junit:${junit}",
+                    "net.serenity-bdd:serenity-core:${serenityVersion}",
+                    "net.serenity-bdd:serenity-rest-assured:${serenityVersion}",
+                    "io.rest-assured:json-schema-validator:${schema}",
+                    "org.slf4j:slf4j-api:${slf4j}",
+                    "org.slf4j:slf4j-simple:${slf4j}",
+                    "net.serenity-bdd:serenity-model:${serenityVersion}",
+                    "com.jayway.jsonpath:json-path:${jsonpath}",
+                    "br.eti.kinoshita:testlink-java-api:${testlink}",
+                    "com.github.kalokanand:testlink-api-client:2.0"
+
+    // Gatling dependencies
+    implementation 'io.gatling.highcharts:gatling-charts-highcharts:3.7.3'
+    implementation 'io.gatling:gatling-core:3.7.3'
+
+    // Serenity dependencies
+    implementation 'org.serenity-bdd:serenity-core:2.4.32'
+    implementation 'org.serenity-bdd:serenity-rest-assured:2.4.32'
+
+    // Additional dependencies
+    implementation 'io.rest-assured:rest-assured:4.4.0'
+    implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+
+    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'org.mockito:mockito-core:3.3.3'
+
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+    testCompileOnly 'org.projectlombok:lombok:1.18.24'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+}
+
+
+test {
+    testLogging.showStandardStreams = true
+    systemProperties System.getProperties()
+}
+
+
+compileJava.options.encoding = 'utf-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'utf-8'
+}
+
+
+gradle.startParameter.continueOnFailure = true
+
+test.finalizedBy(aggregate)
+
