@@ -1,0 +1,90 @@
+### Compile output ###
+target/
+!target/cucumber/failed_scenarios.txt
+!target/site/serenity/serenity-summary.html
+!target/site/serenity/results.csv
+test-integration.txt
+/target/
+/target
+target/*
+/test-output/
+/test-output
+
+### Environment variables ###
+.env
+local.properties
+
+### Maven or Gradle ###
+.gradle
+/.gradle
+build
+history
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+!.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+/.idea
+.settings/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+.serenity.conf
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Sonar ###
+out/
+
+### Package Files ###
+*.jar
+*.war
+*.nar
+*.ear
+*.tar.gz
+*.rar
+*.class
+*.html
+*.csv
+*.log
+
+### Others ###
+checkstyle-suppressions.xml
+sun_checks.xml
+*.DS_Store
+.gitignore
+LICENSE
