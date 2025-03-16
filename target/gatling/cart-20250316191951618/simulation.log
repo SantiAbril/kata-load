@@ -1,0 +1,313 @@
+RUN	automation.Cart	cart	1742152791618	 	3.8.3
+USER	Open Model - Load Test - Carts	START	1742152792525
+USER	Open Model - Load Test - Carts	START	1742152792525
+USER	Closed Model - Load Test - Carts	START	1742152792525
+USER	Open Model - Load Test - Carts	START	1742152792525
+USER	Closed Model - Load Test - Carts	START	1742152793014
+REQUEST		Retrieve a list of all available carts	1742152792522	1742152793081	OK	 
+REQUEST		Retrieve a list of all available carts	1742152792522	1742152793068	OK	 
+REQUEST		Retrieve a list of all available carts	1742152792522	1742152793063	OK	 
+REQUEST		Retrieve a list of all available carts	1742152792522	1742152793081	OK	 
+REQUEST		Create a new cart.	1742152793086	1742152793316	OK	 
+REQUEST		Create a new cart.	1742152793086	1742152793316	OK	 
+REQUEST		Create a new cart.	1742152793086	1742152793318	OK	 
+REQUEST		Create a new cart.	1742152793086	1742152793323	OK	 
+USER	Closed Model - Load Test - Carts	START	1742152793516
+REQUEST		Update an existing cart by ID	1742152793317	1742152793557	OK	 
+REQUEST		Update an existing cart by ID	1742152793317	1742152793557	OK	 
+REQUEST		Update an existing cart by ID	1742152793323	1742152793558	OK	 
+REQUEST		Update an existing cart by ID	1742152793319	1742152793558	OK	 
+REQUEST		Retrieve a list of all available carts	1742152793012	1742152793558	OK	 
+REQUEST		Create a new cart.	1742152793559	1742152793801	OK	 
+REQUEST		Delete a specific cart by ID	1742152793558	1742152793872	OK	 
+REQUEST		Delete a specific cart by ID	1742152793558	1742152793875	OK	 
+USER	Open Model - Load Test - Carts	END	1742152793876
+USER	Open Model - Load Test - Carts	END	1742152793876
+REQUEST		Delete a specific cart by ID	1742152793558	1742152793876	OK	 
+USER	Open Model - Load Test - Carts	END	1742152793877
+REQUEST		Delete a specific cart by ID	1742152793558	1742152793880	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152793880
+USER	Closed Model - Load Test - Carts	START	1742152793882
+REQUEST		Update an existing cart by ID	1742152793802	1742152794028	OK	 
+REQUEST		Retrieve a list of all available carts	1742152793515	1742152794058	OK	 
+REQUEST		Create a new cart.	1742152794059	1742152794286	OK	 
+REQUEST		Delete a specific cart by ID	1742152794029	1742152794354	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152794358
+USER	Closed Model - Load Test - Carts	START	1742152794361
+REQUEST		Retrieve a list of all available carts	1742152793881	1742152794426	OK	 
+REQUEST		Update an existing cart by ID	1742152794287	1742152794514	OK	 
+USER	Closed Model - Load Test - Carts	START	1742152794520
+REQUEST		Create a new cart.	1742152794427	1742152794655	OK	 
+REQUEST		Delete a specific cart by ID	1742152794517	1742152794857	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152794860
+USER	Closed Model - Load Test - Carts	START	1742152794862
+REQUEST		Update an existing cart by ID	1742152794656	1742152794881	OK	 
+REQUEST		Retrieve a list of all available carts	1742152794360	1742152794904	OK	 
+REQUEST		Retrieve a list of all available carts	1742152794519	1742152795072	OK	 
+REQUEST		Create a new cart.	1742152794906	1742152795126	OK	 
+REQUEST		Delete a specific cart by ID	1742152794882	1742152795198	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152795200
+USER	Closed Model - Load Test - Carts	START	1742152795202
+REQUEST		Create a new cart.	1742152795073	1742152795296	OK	 
+REQUEST		Update an existing cart by ID	1742152795130	1742152795358	OK	 
+REQUEST		Retrieve a list of all available carts	1742152794861	1742152795408	OK	 
+USER	Closed Model - Load Test - Carts	START	1742152795506
+REQUEST		Update an existing cart by ID	1742152795299	1742152795520	OK	 
+REQUEST		Create a new cart.	1742152795412	1742152795637	OK	 
+REQUEST		Delete a specific cart by ID	1742152795360	1742152795680	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152795686
+USER	Closed Model - Load Test - Carts	START	1742152795688
+REQUEST		Retrieve a list of all available carts	1742152795201	1742152795731	OK	 
+REQUEST		Delete a specific cart by ID	1742152795522	1742152795842	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152795843
+USER	Closed Model - Load Test - Carts	START	1742152795852
+REQUEST		Update an existing cart by ID	1742152795640	1742152795857	OK	 
+REQUEST		Create a new cart.	1742152795733	1742152795962	OK	 
+REQUEST		Retrieve a list of all available carts	1742152795505	1742152796041	OK	 
+REQUEST		Delete a specific cart by ID	1742152795857	1742152796186	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152796190
+REQUEST		Update an existing cart by ID	1742152795963	1742152796190	OK	 
+USER	Closed Model - Load Test - Carts	START	1742152796193
+REQUEST		Retrieve a list of all available carts	1742152795687	1742152796230	OK	 
+REQUEST		Create a new cart.	1742152796044	1742152796271	OK	 
+REQUEST		Retrieve a list of all available carts	1742152795851	1742152796408	OK	 
+REQUEST		Create a new cart.	1742152796233	1742152796456	OK	 
+REQUEST		Update an existing cart by ID	1742152796274	1742152796492	OK	 
+USER	Closed Model - Load Test - Carts	START	1742152796516
+REQUEST		Delete a specific cart by ID	1742152796191	1742152796519	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152796520
+USER	Closed Model - Load Test - Carts	START	1742152796522
+REQUEST		Create a new cart.	1742152796409	1742152796654	OK	 
+REQUEST		Update an existing cart by ID	1742152796457	1742152796674	OK	 
+REQUEST		Retrieve a list of all available carts	1742152796192	1742152796739	OK	 
+REQUEST		Delete a specific cart by ID	1742152796493	1742152796820	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152796829
+USER	Closed Model - Load Test - Carts	START	1742152796831
+REQUEST		Update an existing cart by ID	1742152796659	1742152796887	OK	 
+REQUEST		Create a new cart.	1742152796741	1742152796969	OK	 
+REQUEST		Delete a specific cart by ID	1742152796675	1742152796996	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152796999
+USER	Closed Model - Load Test - Carts	START	1742152797003
+REQUEST		Retrieve a list of all available carts	1742152796521	1742152797063	OK	 
+REQUEST		Retrieve a list of all available carts	1742152796515	1742152797075	OK	 
+REQUEST		Update an existing cart by ID	1742152796971	1742152797197	OK	 
+REQUEST		Delete a specific cart by ID	1742152796890	1742152797221	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152797223
+USER	Closed Model - Load Test - Carts	START	1742152797226
+REQUEST		Create a new cart.	1742152797064	1742152797283	OK	 
+REQUEST		Create a new cart.	1742152797076	1742152797290	OK	 
+REQUEST		Retrieve a list of all available carts	1742152796830	1742152797381	OK	 
+REQUEST		Update an existing cart by ID	1742152797284	1742152797509	OK	 
+REQUEST		Update an existing cart by ID	1742152797291	1742152797511	OK	 
+REQUEST		Delete a specific cart by ID	1742152797200	1742152797523	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152797524
+USER	Closed Model - Load Test - Carts	START	1742152797525
+REQUEST		Retrieve a list of all available carts	1742152797002	1742152797538	OK	 
+REQUEST		Create a new cart.	1742152797383	1742152797604	OK	 
+REQUEST		Create a new cart.	1742152797538	1742152797772	OK	 
+REQUEST		Retrieve a list of all available carts	1742152797225	1742152797772	OK	 
+REQUEST		Update an existing cart by ID	1742152797605	1742152797822	OK	 
+REQUEST		Delete a specific cart by ID	1742152797512	1742152797830	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152797831
+USER	Closed Model - Load Test - Carts	START	1742152797832
+REQUEST		Delete a specific cart by ID	1742152797512	1742152797833	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152797834
+USER	Closed Model - Load Test - Carts	START	1742152797834
+REQUEST		Create a new cart.	1742152797773	1742152798000	OK	 
+REQUEST		Update an existing cart by ID	1742152797773	1742152798003	OK	 
+REQUEST		Retrieve a list of all available carts	1742152797524	1742152798088	OK	 
+REQUEST		Delete a specific cart by ID	1742152797823	1742152798145	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152798149
+USER	Closed Model - Load Test - Carts	START	1742152798150
+REQUEST		Update an existing cart by ID	1742152798001	1742152798230	OK	 
+REQUEST		Create a new cart.	1742152798089	1742152798320	OK	 
+REQUEST		Delete a specific cart by ID	1742152798004	1742152798325	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152798326
+USER	Closed Model - Load Test - Carts	START	1742152798327
+REQUEST		Retrieve a list of all available carts	1742152797834	1742152798371	OK	 
+USER	Closed Model - Load Test - Carts	START	1742152798511
+REQUEST		Delete a specific cart by ID	1742152798231	1742152798551	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152798553
+REQUEST		Update an existing cart by ID	1742152798322	1742152798553	OK	 
+USER	Closed Model - Load Test - Carts	START	1742152798554
+REQUEST		Create a new cart.	1742152798373	1742152798590	OK	 
+REQUEST		Retrieve a list of all available carts	1742152797832	1742152798617	OK	 
+REQUEST		Retrieve a list of all available carts	1742152798150	1742152798690	OK	 
+REQUEST		Update an existing cart by ID	1742152798592	1742152798812	OK	 
+REQUEST		Create a new cart.	1742152798619	1742152798842	OK	 
+REQUEST		Retrieve a list of all available carts	1742152798327	1742152798866	OK	 
+REQUEST		Delete a specific cart by ID	1742152798554	1742152798882	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152798885
+USER	Closed Model - Load Test - Carts	START	1742152798888
+REQUEST		Create a new cart.	1742152798693	1742152798917	OK	 
+REQUEST		Retrieve a list of all available carts	1742152798510	1742152799054	OK	 
+REQUEST		Update an existing cart by ID	1742152798843	1742152799071	OK	 
+REQUEST		Create a new cart.	1742152798867	1742152799086	OK	 
+REQUEST		Retrieve a list of all available carts	1742152798554	1742152799099	OK	 
+REQUEST		Delete a specific cart by ID	1742152798814	1742152799135	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152799136
+USER	Closed Model - Load Test - Carts	START	1742152799137
+REQUEST		Update an existing cart by ID	1742152798919	1742152799143	OK	 
+REQUEST		Create a new cart.	1742152799055	1742152799278	OK	 
+REQUEST		Update an existing cart by ID	1742152799087	1742152799302	OK	 
+REQUEST		Create a new cart.	1742152799100	1742152799323	OK	 
+REQUEST		Delete a specific cart by ID	1742152799071	1742152799391	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152799393
+USER	Closed Model - Load Test - Carts	START	1742152799395
+REQUEST		Retrieve a list of all available carts	1742152798887	1742152799438	OK	 
+REQUEST		Update an existing cart by ID	1742152799279	1742152799503	OK	 
+USER	Closed Model - Load Test - Carts	START	1742152799511
+REQUEST		Update an existing cart by ID	1742152799324	1742152799548	OK	 
+REQUEST		Delete a specific cart by ID	1742152799143	1742152799579	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152799580
+USER	Closed Model - Load Test - Carts	START	1742152799580
+REQUEST		Delete a specific cart by ID	1742152799303	1742152799621	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152799622
+USER	Closed Model - Load Test - Carts	START	1742152799623
+REQUEST		Create a new cart.	1742152799439	1742152799666	OK	 
+REQUEST		Retrieve a list of all available carts	1742152799136	1742152799672	OK	 
+REQUEST		Delete a specific cart by ID	1742152799504	1742152799836	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152799837
+USER	Closed Model - Load Test - Carts	START	1742152799839
+REQUEST		Delete a specific cart by ID	1742152799548	1742152799868	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152799873
+USER	Closed Model - Load Test - Carts	START	1742152799874
+REQUEST		Update an existing cart by ID	1742152799667	1742152799888	OK	 
+REQUEST		Create a new cart.	1742152799673	1742152799905	OK	 
+REQUEST		Retrieve a list of all available carts	1742152799394	1742152799925	OK	 
+REQUEST		Retrieve a list of all available carts	1742152799511	1742152800044	OK	 
+REQUEST		Retrieve a list of all available carts	1742152799580	1742152800122	OK	 
+REQUEST		Update an existing cart by ID	1742152799906	1742152800134	OK	 
+REQUEST		Create a new cart.	1742152799925	1742152800142	OK	 
+REQUEST		Retrieve a list of all available carts	1742152799622	1742152800153	OK	 
+REQUEST		Delete a specific cart by ID	1742152799889	1742152800215	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152800217
+USER	Closed Model - Load Test - Carts	START	1742152800218
+REQUEST		Create a new cart.	1742152800047	1742152800273	OK	 
+REQUEST		Create a new cart.	1742152800123	1742152800350	OK	 
+REQUEST		Create a new cart.	1742152800154	1742152800374	OK	 
+REQUEST		Update an existing cart by ID	1742152800142	1742152800374	OK	 
+REQUEST		Retrieve a list of all available carts	1742152799838	1742152800376	OK	 
+REQUEST		Retrieve a list of all available carts	1742152799873	1742152800450	OK	 
+REQUEST		Delete a specific cart by ID	1742152800135	1742152800472	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152800476
+USER	Closed Model - Load Test - Carts	START	1742152800478
+REQUEST		Update an existing cart by ID	1742152800275	1742152800498	OK	 
+USER	Closed Model - Load Test - Carts	START	1742152800512
+REQUEST		Update an existing cart by ID	1742152800351	1742152800576	OK	 
+REQUEST		Update an existing cart by ID	1742152800375	1742152800595	OK	 
+REQUEST		Create a new cart.	1742152800377	1742152800599	OK	 
+REQUEST		Create a new cart.	1742152800451	1742152800685	OK	 
+REQUEST		Delete a specific cart by ID	1742152800375	1742152800692	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152800693
+USER	Closed Model - Load Test - Carts	START	1742152800694
+REQUEST		Retrieve a list of all available carts	1742152800217	1742152800775	OK	 
+REQUEST		Delete a specific cart by ID	1742152800498	1742152800819	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152800820
+USER	Closed Model - Load Test - Carts	START	1742152800821
+REQUEST		Update an existing cart by ID	1742152800600	1742152800822	OK	 
+REQUEST		Delete a specific cart by ID	1742152800579	1742152800904	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152800905
+USER	Closed Model - Load Test - Carts	START	1742152800906
+REQUEST		Update an existing cart by ID	1742152800686	1742152801024	OK	 
+REQUEST		Delete a specific cart by ID	1742152800596	1742152801024	OK	 
+REQUEST		Create a new cart.	1742152800777	1742152801024	OK	 
+REQUEST		Retrieve a list of all available carts	1742152800477	1742152801024	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152801025
+USER	Closed Model - Load Test - Carts	START	1742152801026
+REQUEST		Retrieve a list of all available carts	1742152800511	1742152801068	OK	 
+REQUEST		Delete a specific cart by ID	1742152800822	1742152801227	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152801228
+USER	Closed Model - Load Test - Carts	START	1742152801230
+REQUEST		Update an existing cart by ID	1742152801025	1742152801244	OK	 
+REQUEST		Create a new cart.	1742152801025	1742152801254	OK	 
+REQUEST		Create a new cart.	1742152801069	1742152801303	OK	 
+REQUEST		Delete a specific cart by ID	1742152801025	1742152801351	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152801353
+USER	Closed Model - Load Test - Carts	START	1742152801355
+REQUEST		Retrieve a list of all available carts	1742152800694	1742152801361	OK	 
+REQUEST		Update an existing cart by ID	1742152801256	1742152801476	OK	 
+USER	Closed Model - Load Test - Carts	START	1742152801514
+REQUEST		Update an existing cart by ID	1742152801305	1742152801532	OK	 
+REQUEST		Retrieve a list of all available carts	1742152800821	1742152801559	OK	 
+REQUEST		Delete a specific cart by ID	1742152801244	1742152801559	OK	 
+REQUEST		Retrieve a list of all available carts	1742152800905	1742152801559	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152801560
+USER	Closed Model - Load Test - Carts	START	1742152801561
+REQUEST		Create a new cart.	1742152801362	1742152801609	OK	 
+REQUEST		Retrieve a list of all available carts	1742152801026	1742152801667	OK	 
+REQUEST		Retrieve a list of all available carts	1742152801229	1742152801779	OK	 
+REQUEST		Create a new cart.	1742152801560	1742152801779	OK	 
+REQUEST		Create a new cart.	1742152801560	1742152801783	OK	 
+REQUEST		Delete a specific cart by ID	1742152801478	1742152801829	OK	 
+REQUEST		Update an existing cart by ID	1742152801610	1742152801829	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152801831
+USER	Closed Model - Load Test - Carts	START	1742152801832
+REQUEST		Delete a specific cart by ID	1742152801533	1742152801870	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152801874
+USER	Closed Model - Load Test - Carts	START	1742152801875
+REQUEST		Retrieve a list of all available carts	1742152801354	1742152801888	OK	 
+REQUEST		Create a new cart.	1742152801670	1742152801889	OK	 
+REQUEST		Create a new cart.	1742152801780	1742152802006	OK	 
+REQUEST		Update an existing cart by ID	1742152801780	1742152802007	OK	 
+REQUEST		Update an existing cart by ID	1742152801783	1742152802008	OK	 
+REQUEST		Retrieve a list of all available carts	1742152801513	1742152802052	OK	 
+REQUEST		Retrieve a list of all available carts	1742152801561	1742152802091	OK	 
+REQUEST		Create a new cart.	1742152801889	1742152802111	OK	 
+REQUEST		Update an existing cart by ID	1742152801889	1742152802118	OK	 
+REQUEST		Delete a specific cart by ID	1742152801830	1742152802152	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152802153
+USER	Closed Model - Load Test - Carts	START	1742152802155
+REQUEST		Update an existing cart by ID	1742152802008	1742152802227	OK	 
+REQUEST		Create a new cart.	1742152802054	1742152802281	OK	 
+REQUEST		Create a new cart.	1742152802092	1742152802324	OK	 
+REQUEST		Delete a specific cart by ID	1742152802008	1742152802325	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152802326
+USER	Closed Model - Load Test - Carts	START	1742152802326
+REQUEST		Update an existing cart by ID	1742152802112	1742152802331	OK	 
+REQUEST		Delete a specific cart by ID	1742152802008	1742152802336	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152802337
+USER	Closed Model - Load Test - Carts	START	1742152802338
+REQUEST		Retrieve a list of all available carts	1742152801831	1742152802369	OK	 
+REQUEST		Retrieve a list of all available carts	1742152801874	1742152802416	OK	 
+REQUEST		Delete a specific cart by ID	1742152802119	1742152802439	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152802440
+USER	Closed Model - Load Test - Carts	START	1742152802441
+REQUEST		Update an existing cart by ID	1742152802282	1742152802505	OK	 
+REQUEST		Update an existing cart by ID	1742152802325	1742152802543	OK	 
+REQUEST		Delete a specific cart by ID	1742152802228	1742152802545	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152802545
+REQUEST		Create a new cart.	1742152802370	1742152802600	OK	 
+REQUEST		Delete a specific cart by ID	1742152802331	1742152802650	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152802651
+REQUEST		Create a new cart.	1742152802417	1742152802660	OK	 
+REQUEST		Retrieve a list of all available carts	1742152802154	1742152802705	OK	 
+REQUEST		Delete a specific cart by ID	1742152802505	1742152802826	OK	 
+REQUEST		Update an existing cart by ID	1742152802600	1742152802826	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152802827
+REQUEST		Delete a specific cart by ID	1742152802543	1742152802859	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152802860
+REQUEST		Retrieve a list of all available carts	1742152802326	1742152802882	OK	 
+REQUEST		Update an existing cart by ID	1742152802660	1742152802886	OK	 
+REQUEST		Retrieve a list of all available carts	1742152802338	1742152802892	OK	 
+REQUEST		Create a new cart.	1742152802706	1742152802921	OK	 
+REQUEST		Retrieve a list of all available carts	1742152802441	1742152802979	OK	 
+REQUEST		Create a new cart.	1742152802883	1742152803101	OK	 
+REQUEST		Create a new cart.	1742152802892	1742152803111	OK	 
+REQUEST		Update an existing cart by ID	1742152802921	1742152803143	OK	 
+REQUEST		Delete a specific cart by ID	1742152802826	1742152803147	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152803149
+REQUEST		Create a new cart.	1742152802980	1742152803198	OK	 
+REQUEST		Delete a specific cart by ID	1742152802887	1742152803208	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152803209
+REQUEST		Update an existing cart by ID	1742152803104	1742152803326	OK	 
+REQUEST		Update an existing cart by ID	1742152803112	1742152803329	OK	 
+REQUEST		Update an existing cart by ID	1742152803199	1742152803421	OK	 
+REQUEST		Delete a specific cart by ID	1742152803144	1742152803461	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152803466
+REQUEST		Delete a specific cart by ID	1742152803330	1742152803659	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152803661
+REQUEST		Delete a specific cart by ID	1742152803328	1742152803663	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152803664
+REQUEST		Delete a specific cart by ID	1742152803422	1742152803739	OK	 
+USER	Closed Model - Load Test - Carts	END	1742152803743
