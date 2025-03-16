@@ -60,6 +60,23 @@
                     <!-- Enterprise Self-Hosted configuration reference: https://gatling.io/docs/gatling/reference/current/extensions/maven_plugin/#working-with-gatling-enterprise-self-hosted -->
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>io.gatling</groupId>
+                <artifactId>gatling-maven-plugin</artifactId>
+                <version>${gatling-maven-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <simulationsFolder>src/test/java/automation</simulationsFolder>
+                    <runMultipleSimulations>true</runMultipleSimulations>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 </project>
