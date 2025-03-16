@@ -1,0 +1,10 @@
+{
+  "simulation": "automation.Cart",
+  "simulationId": "cart-20250316191951618",
+  "start": 1742152792522,
+  "description": "",
+  "scenarios": ["Open Model - Load Test - Carts", "Closed Model - Load Test - Carts"],
+  "assertions": [
+
+  ]
+}
