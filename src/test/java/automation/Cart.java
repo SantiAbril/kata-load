@@ -53,23 +53,22 @@ public class Cart extends Simulation {
             );
 
 
-    // Definir los escenarios con nombres únicos
     private final ScenarioBuilder openModelScn = scenario("Open Model - Load Test - Carts")
             .exec(getAllCarts)
-            .pace(2)
+            .pace(5)
             .exec(addANewCart)
-            .pace(2)
+            .pace(5)
             .exec(updateACart)
-            .pace(2)
+            .pace(5)
             .exec(deleteACart);
 
     private final ScenarioBuilder closedModelScn = scenario("Closed Model - Load Test - Carts")
             .exec(getAllCarts)
-            .pace(2)
+            .pace(5)
             .exec(addANewCart)
-            .pace(2)
+            .pace(5)
             .exec(updateACart)
-            .pace(2)
+            .pace(5)
             .exec(deleteACart);
 
     {

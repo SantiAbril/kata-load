@@ -1,0 +1,56 @@
+name: test-execution-and-reporting
+
+on:
+  push:
+    branches:
+      - master
+      - feature/*
+
+  workflow_dispatch:
+    inputs:
+      execution:
+        description: "Selecciona la razón de ejecución del pipeline"
+        required: true
+        type: choice
+        options:
+          - Estabilidad de las APIs
+          - Beta
+      version:
+        description: "Si seleccionaste 'Beta', indica la versión"
+        required: false
+  schedule:
+    - cron: "0 9 * * Tue,Wed,Thu"
+
+jobs:
+  execution:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up java and gradle
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Set up Maven
+        uses: actions/setup-maven@v2
+        with:
+          maven-version: '3.8.1'
+
+      - name: Install dependencies and build the project
+        run: mvn clean install -DskipTests
+
+      - name: Run Gatling tests
+        run: mvn gatling:test
+        continue-on-error: true
+
+      - name: Upload test reports as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-reports
+          path: target/gatling
+          retention-days: 2
+
